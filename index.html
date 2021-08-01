@@ -35,16 +35,22 @@
         <div class="container-fluid mt-2 mt-sm-3 mt-md-5">
           <div class="row">
             <div class="col-4 col-sm-4 col-md-4">
+              <a href="#" data-toggle="modal" data-target="#information">
               <img class="img-fluid mb-2 mb-sm-3 mb-md-4" src="img/project.png" alt="Projetos">
               <h4 class="text-center">Projetos</h4>
+              </a>
             </div>
             <div class="col-4 col-sm-4 col-md-4">
+              <a href="#" data-toggle="modal" data-target="#information">
               <img class="img-fluid mb-2 mb-sm-3 mb-md-4" src="img/crm.png" alt="Parceiros">
               <h4 class=" text-center">Parceiros</h4>
+              </a>
             </div>
             <div class="col-4 col-sm-4 col-md-4">
+              <a href="#" data-toggle="modal" data-target="#information">
               <img class="img-fluid mb-2 mb-sm-3 mb-md-4" src="img/contact.png" alt="Fale Conosco">
               <h4 class="text-center">Fale Conosco</h4>
+              </a>
             </div>
           </div>
         </div>
@@ -64,6 +70,26 @@
     </div>
   </div>
 
+  <!-- Estrutura da janela modal -->
+  <div class="modal fade" id="information" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title"> Titulo do Modal</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          ...
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-info" data-dismiss="modal">Fechar</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  
   <script src="js/jquery-3.6.0.min.js"></script>
   <script src="js/bootstrap.js"></script>
   <script src="../libs/fontawesome/js/all.js"></script>
